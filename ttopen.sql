@@ -62,6 +62,7 @@ CREATE TABLE `IMAudio` (
 
 # Dump of table IMDepart
 # ------------------------------------------------------------
+## INSERT INTO `teamtalk`.`IMDepart` SET `id`=2,`departName`='部门2',`priority`=0,`parentId`=1,`status`=0,`created`=1,`updated`=1;
 
 DROP TABLE IF EXISTS `IMDepart`;
 
@@ -530,6 +531,7 @@ CREATE TABLE `IMRelationShip` (
 
 # Dump of table IMUser
 # ------------------------------------------------------------
+# UPDATE `teamtalk`.`IMUser` SET `nick`='亲的真名1' WHERE `id`=4;
 
 DROP TABLE IF EXISTS `IMUser`;
 
