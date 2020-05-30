@@ -558,3 +558,5 @@ CREATE TABLE `IMUser` (
   KEY `idx_phone` (`phone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+INSERT INTO `teamtalk`.`IMUser`(`id`, `sex`, `name`, `domain`, `nick`, `password`, `salt`, `phone`, `email`, `avatar`, `departId`, `status`, `created`, `updated`, `sign_info`) VALUES (1, 1, 'test', '拼音', '花名', '123456', '混淆码', '18812345678', 'mail@email.com', '111', 1, 2, 111, 11, '个性签名')
+
